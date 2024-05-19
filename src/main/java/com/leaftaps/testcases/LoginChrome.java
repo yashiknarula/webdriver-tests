@@ -31,7 +31,7 @@ public class LoginChrome {
 		//dc.setVersion("119.0");
 		dc.setPlatform(Platform.LINUX);
 
-		RemoteWebDriver driver = new RemoteWebDriver(new URL("http://20.40.57.2:4444/wd/hub"), dc);
+		RemoteWebDriver driver = new RemoteWebDriver(new URL("http://4.240.76.74:4444/wd/hub"), dc);
 
 		//ChromeDriver driver = new ChromeDriver();
 
@@ -41,18 +41,18 @@ public class LoginChrome {
 		// Maximize the browser
 		driver.manage().window().maximize();
 
-		Thread.sleep(10000);
+		//Thread.sleep(10000);
 
 		// Step 3: Print the title --> getTitle
 		driver.findElement(By.id("username")).sendKeys("democsr");
 		System.out.println("The title is "+driver.getTitle());
 
-		Thread.sleep(5000);
+		//Thread.sleep(5000);
 
 		// Step 3: Print the title --> getTitle
 		driver.findElement(By.id("password")).sendKeys("crmsfa");
 
-		Thread.sleep(5000);
+		//Thread.sleep(5000);
 
 		driver.findElement(By.className("decorativeSubmit")).click();
 
