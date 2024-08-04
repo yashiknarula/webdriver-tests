@@ -5,7 +5,7 @@
     <classes>
        <class name="com.leaftaps.testcases.Login"/>
       <class name="com.leaftaps.testcases.LoginChrome"/>
-      <class name="com.leaftaps.testcases.LoginEdge"/>
+      <class name="com.leaftaps.testcases.LoginFirefox"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
