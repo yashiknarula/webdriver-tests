@@ -47,7 +47,7 @@ public class Login {
 		//dc.setVersion("117.0");
 		//dc.setPlatform(Platform.LINUX);
 
-		RemoteWebDriver driver = new RemoteWebDriver(new URL("http://20.40.57.2:4444/wd/hub"), dc);
+		RemoteWebDriver driver = new RemoteWebDriver(new URL("http://20.244.96.142:4444/wd/hub"), dc);
 
 		//ChromeDriver driver = new ChromeDriver();
 
