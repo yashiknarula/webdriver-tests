@@ -31,7 +31,7 @@ public class LoginChrome {
 		//dc.setVersion("119.0");
 		dc.setPlatform(Platform.LINUX);
 
-		RemoteWebDriver driver = new RemoteWebDriver(new URL("http://4.240.76.74:4444/wd/hub"), dc);
+		RemoteWebDriver driver = new RemoteWebDriver(new URL("http://20.244.96.142:4444/wd/hub"), dc);
 
 		//ChromeDriver driver = new ChromeDriver();
 
