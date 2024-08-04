@@ -3,9 +3,9 @@
 <suite parallel="classes" name="Suite">
   <test thread-count="5" parallel="classes" name="Test">
     <classes>
+       <class name="com.leaftaps.testcases.Login"/>
       <class name="com.leaftaps.testcases.LoginChrome"/>
       <class name="com.leaftaps.testcases.LoginEdge"/>
-      <class name="com.leaftaps.testcases.Login"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
